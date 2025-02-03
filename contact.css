@@ -2,9 +2,13 @@
     box-sizing: border-box;
     padding: auto;
 }
-.BigContainer{
-    max-width: 1920px;
+.Container{
+    width: 1440px;
     padding: 100px 0;
+   
+}
+.main_ptn{
+    max-width: 1240px;
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -47,9 +51,9 @@ p{
     font-size: 50px;
     font-weight: 500;
 }
-.form-header p{
+/* .form-header p{
     text-transform: capitalize;
-}
+} */
 .form{
     display: flex;
     flex-direction: column;
@@ -65,7 +69,7 @@ label{
     font-size: 14px;
     font-weight: 500;
 }
-.field{
+.field_label{
     display: flex;
     flex-direction: column;
     gap: 6px;

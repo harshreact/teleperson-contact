@@ -12,47 +12,50 @@
   </head>
   <body>
     <section>
-      <div class="BigContainer">
-        <div class="left-side">
-          <div class="form-header">
-            <h1 class="title_h1">Contact Us</h1>
-            <p>Let's chat about customer service designed around you</p>
-          </div>
-          <form class="form">
-            <div class="name">
-              <div class="field">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" placeholder="First Name" />
+      <div class="Container">
+        <div class="main_ptn">
+            <div class="left-side">
+                <div class="form-header">
+                  <h1 class="title_h1">Contact Us</h1>
+                  <p>Let's chat about customer service designed around you</p>
+                </div>
+                <form class="form">
+                  <div class="name">
+                    <div class="field_label">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" placeholder="First Name" />
+                    </div>
+                    <div class="field_label">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" placeholder="Last Name" />
+                    </div>
+                  </div>
+                  <div class="field_label">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" placeholder="you@company.com" />
+                  </div>
+                  <div class="field_label">
+                      <label for="phone_num">Phone Number</label>
+                      <input type="tel" id="phone_num" placeholder="+1 (555) 000-000" />
+                  </div>
+                  <div class="field_label">
+                      <label for="message">Message</label>
+                      <textarea id="message"></textarea>
+                  </div>
+                  <div class="policy">
+                      <input type="checkbox" id="policy" name="policy" value="policy">
+                      <p>You agree to our friendly <span>privacy policy.</span></p>
+                  </div>
+                </form>
+                <div class="btn">
+                  <a href="#">Send message</a>
+                </div>
               </div>
-              <div class="field">
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" placeholder="Last Name" />
+              <div class="right-side">
+                  <img src="./Assest/contact_img.png" alt="contact-img">
               </div>
-            </div>
-            <div class="field">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="you@company.com" />
-            </div>
-            <div class="field">
-                <label for="phone_num">Phone Number</label>
-                <input type="tel" id="phone_num" placeholder="+1 (555) 000-000" />
-            </div>
-            <div class="field">
-                <label for="message">Message</label>
-                <textarea id="message"></textarea>
-            </div>
-            <div class="policy">
-                <input type="checkbox" id="policy" name="policy" value="policy">
-                <p>You agree to our friendly <span>privacy policy.</span></p>
-            </div>
-          </form>
-          <div class="btn">
-            <a href="#">Send message</a>
-          </div>
         </div>
-        <div class="right-side">
-            <img src="./Assest/contact_img.png" alt="contact-img">
-        </div>
+      
       </div>
     </section>
   </body>
